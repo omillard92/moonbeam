@@ -1,4 +1,4 @@
-s3:
+fivetran-test-data-oregon:
   csvs:
     .json_schema: 'https://raw.githubusercontent.com/fivetran/moonbeam/master/schemas/csvs.json'
     .primary_key: 'Id'
