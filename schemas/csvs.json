@@ -1,2 +1,28 @@
 {
+  "type": "object",
+  "properties": {
+      "Id": {
+        "type": "integer"
+      },
+      "Boolean": {
+        "type": "boolean"
+      },
+      "Int": {
+        "type": "integer"
+      },
+      "Double": {
+        "type": "number"
+      },
+      "Decimal": {
+        "type": "number",
+        "multipleOf": 0.01
+      },
+      "String": {
+        "type": "string"
+      },
+      "String10": {
+        "type": "string",
+        "maxLength": 10
+      }
+  }
 }
